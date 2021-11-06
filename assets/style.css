@@ -14,12 +14,15 @@
       position: sticky;
       position: -webkit-sticky;
       top: 0;
+      z-index: 9999;
+      text-decoration: none;
   }
   header h1 {
       font-weight: bold;
       margin: 0;
       font-size: 30;
-      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);      
+      text-decoration: none;
   }
   header nav {
       margin: 7px 0;
@@ -96,7 +99,18 @@
 .projects img:hover {
     width: 250px;
     height: 150px;
-
+    opacity: 0.5;
+}
+.bigger a img{
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    transition: 0.3s;
+}
+.bigger a img:hover {
+    width: 500px;
+    height: 300px;
+    justify-content: center;
     opacity: 0.5;
 }
 .contact {
@@ -106,4 +120,46 @@
     align-items: center;
     list-style: none;
     font-size: 27px;
+}
+footer {
+    text-align: center;
+}
+
+/* media query for smaller screens on desktop */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+      }
+    
+      header h1 {
+        width: 100%;
+        text-align: center;
+      }
+    
+      header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+      }
+    
+      header nav ul li a {
+        font-size: 20px;
+      }
+    .projects {
+        flex: 0 70%
+    }
+}
+/* media query for tablets and smaller */
+@media screen and (max-width: 768px) {
+    .projects {
+        flex: 1 100%;
+    }
+}
+/* media query for phones and smaller */
+@media screen and (max-width: 575px) {
+    .projects { 
+        flex: 0 100%
+    }
 }

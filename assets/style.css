@@ -6,6 +6,7 @@
   body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
+  /* styling for header and nav bar */
   header{ 
       background-color: #F2F2F2;
       display: flex;
@@ -46,6 +47,7 @@
       text-decoration: none;
       text-shadow:0 0 10px rgba(198, 9, 33, 0.5);
   }
+  /*styling of hero banner and image*/
 .image img {
     width: 600px;
     height: 900px;
@@ -61,6 +63,7 @@
     text-align: center;
     color: #F2B999
 }
+/* styling of the section containing all info */
 .intro {
       text-align: center;
       margin: 50px auto;
@@ -81,6 +84,7 @@
     font-size: 20px;
     padding: auto;
 }
+/* styling the projects section */
 .projects {
     display: flex;
     flex-wrap: wrap;

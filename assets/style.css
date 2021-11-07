@@ -78,10 +78,14 @@
       color: #F2695C;
       font-size: 100px;
       margin-bottom: 75px;
+      border-bottom: 3px #F2F2F2 solid;
+      margin: 0 auto 35px auto;
+      width: 50%;
   }
 .intro h3 {
     font-size: 50px;
     color: #F2B999;
+
 }
 
 .intro div p{
@@ -104,6 +108,7 @@
     width: 250px;
     height: 150px;
     transition: 0.3s;
+    border: 5px #D9C0BA solid;
 }
 .projects img:hover {
     width: 250px;
@@ -115,6 +120,7 @@
     height: 300px;
     justify-content: center;
     transition: 0.3s;
+    border: 5px #D9C0BA solid;
 }
 .bigger a img:hover {
     width: 500px;

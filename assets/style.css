@@ -23,7 +23,10 @@
       margin: 0;
       font-size: 30;
       text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);      
-      text-decoration: none;
+  }
+  header h1 a {
+    text-decoration: none;
+    color: #F2695C;
   }
   header nav {
       margin: 7px 0;
@@ -78,11 +81,12 @@
   }
 .intro h3 {
     font-size: 50px;
+    color: #F2B999;
 }
 
 .intro div p{
     font-size: 20px;
-    padding: auto;
+    padding: 0 100px 0 100px;
 }
 /* styling the projects section */
 .projects {
@@ -94,6 +98,7 @@
 }
 .projects h3 {
     font-size: 27px;
+    color: #F2B999;
 }
 .projects img {
     width: 250px;
